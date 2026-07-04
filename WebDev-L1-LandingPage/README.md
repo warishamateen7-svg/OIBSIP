@@ -1,4 +1,4 @@
-# Coffee Corner Lsnding Page
+# Coffee Corner Landing Page
 This is task 1 of my Oasis Infobyte Web Development Internship 
 
 ## Technologies Used
