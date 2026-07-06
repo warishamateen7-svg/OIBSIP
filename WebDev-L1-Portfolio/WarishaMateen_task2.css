@@ -115,7 +115,7 @@ button:hover{
 .foot{
     text-align: center;
 }
-@media (max-width:770px){
+@media (max-width:777px){
 .nav{
     justify-content: center;
     gap:9px;
