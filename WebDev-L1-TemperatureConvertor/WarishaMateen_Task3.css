@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:25px;
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(to right,#74ebd5,#4ca1af);
+}
+
+.container{
+    width:100%;
+    max-width:470px;
+    background:#ffffff;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.18);
+}
+
+h1{
+    text-align:center;
+    color:#0b5563;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    font-size:15px;
+    margin-bottom:25px;
+}
+
+.converter-box{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    font-weight:600;
+    margin:15px 0 8px;
+    color:#2d2d2d;
+}
+
+input,
+select{
+    width:100%;
+    padding:12px;
+    font-size:16px;
+    border:2px solid #d8d8d8;
+    border-radius:10px;
+    transition:0.3s ease;
+    background:#fff;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border-color:#4ca1af;
+    box-shadow:0 0 8px rgba(76,161,175,.35);
+}
+
+button{
+    margin-top:25px;
+    padding:13px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(to right,#4ca1af,#2c7da0);
+    color:#fff;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+
+button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 18px rgba(0,0,0,.2);
+}
+
+button:active{
+    transform:scale(0.98);
+}
+
+.result{
+    margin-top:30px;
+}
+
+.result h2{
+    text-align:center;
+    color:#0b5563;
+    margin-bottom:15px;
+}
+
+.result p{
+    padding:12px;
+    margin-bottom:12px;
+    border-radius:8px;
+    background:#f3fbfd;
+    border-left:5px solid #4ca1af;
+    font-weight:600;
+}
+
+#error{
+    margin-top:15px;
+    text-align:center;
+    color:#d62828;
+    font-weight:bold;
+    min-height:20px;
+}
+
+@media (max-width:600px){
+
+    .container{
+        padding:22px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    .subtitle{
+        font-size:14px;
+    }
+
+    button{
+        font-size:16px;
+    }
+
+}
